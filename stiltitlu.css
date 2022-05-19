@@ -1,7 +1,7 @@
 .wavy{
-margin-top: -8;
-margin-left: -7;
-width: 50.3cm;
+margin-top: 0;
+margin-left: 0;
+width: 100%;
 text-align: center;
 }
 .wavy span{
@@ -29,4 +29,19 @@ text-align: center;
     {
         color: rgb(255, 255, 255);
       }
+}
+@media only screen and (max-width: 600px) {
+#square{
+  width: 600px;
+  height:300px;
+}
+#informatie{
+font-size: medium;
+}
+#contact{
+  font-size: medium;
+}
+.wavy{
+  text-align: center;
+}
 }
