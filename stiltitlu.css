@@ -3,6 +3,8 @@ margin-top: 0;
 margin-left: 0;
 width: 100%;
 text-align: center;
+text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+cursor: pointer;
 }
 .wavy span{
     color: rgb(255, 255, 255);
@@ -29,4 +31,19 @@ text-align: center;
     {
         color: rgb(255, 255, 255);
       }
+}
+@media only screen and (max-width: 600px) {
+#square{
+  width: 600px;
+  height:300px;
+}
+#informatie{
+font-size: medium;
+}
+#contact{
+  font-size: medium;
+}
+.wavy{
+  text-align: center;
+}
 }
