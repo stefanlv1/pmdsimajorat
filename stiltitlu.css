@@ -30,18 +30,3 @@ text-align: center;
         color: rgb(255, 255, 255);
       }
 }
-@media only screen and (max-width: 600px) {
-#square{
-  width: 600px;
-  height:300px;
-}
-#informatie{
-font-size: medium;
-}
-#contact{
-  font-size: medium;
-}
-.wavy{
-  text-align: center;
-}
-}
